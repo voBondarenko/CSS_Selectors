@@ -61,4 +61,19 @@ section {
 .main {
     font-size: 14px;
     font-family: sans-serif;
+    margin: 0 33%;
+}
+
+.header_img {
+    margin-top: 15%;
+}
+
+.main_p {
+    color: #9d9d9d;
+    margin: 0 10%;
+}
+
+.title {
+    font-size: 14px;
+    margin: 5% 0;
 }

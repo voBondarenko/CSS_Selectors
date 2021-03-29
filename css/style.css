@@ -36,21 +36,40 @@
     font-size: 18px;
 }
 
-.nav-list a:hover {
-    color: rgb(213, 230, 69);
-}
-
 #img-logo {
     width: 6%;
 }
-/* 
-.nav-list li:last-child a {
-    color: #d89024;
-} */
+
+
+.nav-list li a[data-type="About"] {
+    color: #9a10b3;
+}
+
+
+.nav-list li a[data-type="Product"] {
+    color: #c31414;
+}
+
+.nav-list li a[data-type="Program"] {
+    color: #bdd403;
+}
+
+.nav-list li a[data-type="Contact"] {
+    color: #00dcdc;
+}
 
 .nav-list li a[data-type="Blog"] {
     color: #d89024;
 }
+
+.nav-list li a[data-type="Portfolio"] {
+    color: #2b40ce;
+}
+
+.nav-list li a:hover {
+    color: rgb(0, 0, 0);
+}
+
 
 section {
     width: 33%;
